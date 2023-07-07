@@ -1,9 +1,11 @@
-# LibreriaSalvadorProyecto - Arquitectura de Software ♨️💻
+# Proyecto Sistema Web Libreria Salvador 📚💻
 
 <strong>Proyecto:</strong> 
   <ul>Implementación de un Sistema Web para la Librería Salvador</ul>
 <strong>Profesor:</strong>
   <ul>Jara García Carlos Alberto</ul>
+<strong>Asignatura</strong>
+  <ul>Arquitectura de Software</ul>
 <strong>Integrantes: </strong>
    <ul>- Gonzalez Cipriano, Beatriz</ul>
    <ul>- Gonzalez Díaz, Juan</ul>
