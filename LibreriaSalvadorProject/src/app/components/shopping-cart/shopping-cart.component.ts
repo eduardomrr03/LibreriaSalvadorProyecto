@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class ShoppingCartComponent {
   //Variables para las Opciones de Envio
-  retiroOptionSelected: boolean = true;
-  envioOptionSelected: boolean = false;
+  retiroOptionSelected: boolean = false;
+  envioOptionSelected: boolean = true;
 
   toggleRetiroOption() {
     this.retiroOptionSelected = true;

@@ -10,6 +10,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { Router, RouterModule } from '@angular/router';
 import { DetalleProductoComponent } from './components/detalle-producto/detalle-producto.component';
+import { AdminPanelComponent } from './components/admin-panel/admin-panel.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DetalleProductoComponent } from './components/detalle-producto/detalle-
     RegisterComponent,
     NavbarComponent,
     HomeComponent,
-    DetalleProductoComponent
+    DetalleProductoComponent,
+    AdminPanelComponent
   ],
   imports: [
     RouterModule,
