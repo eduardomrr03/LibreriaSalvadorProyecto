@@ -5,6 +5,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
+import { DetalleProductoComponent } from './components/detalle-producto/detalle-producto.component';
 
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent, data: { hideNavbar: true } },
   { path: 'navbar', component: NavbarComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'detalleProducto', component: DetalleProductoComponent },
   { path: 'shopping-cart', component: ShoppingCartComponent },
   { path: '', redirectTo: '/login', pathMatch: 'full' },
 ];
