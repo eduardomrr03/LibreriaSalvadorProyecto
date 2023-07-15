@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RegistroService } from 'src/app/services/registro.service';
+
 
 
 @Component({
@@ -11,7 +11,7 @@ import { RegistroService } from 'src/app/services/registro.service';
 export class RegisterComponent {
 
  
-  constructor(private registroService: RegistroService) { }
+
 
   
   

@@ -13,7 +13,6 @@ import { DetalleProductoComponent } from './components/detalle-producto/detalle-
 import { AdminPanelComponent } from './components/admin-panel/admin-panel.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { RegistroService } from './services/registro.service';
 /*import { RegistroUsuarioComponent } from './components/registro-usuario/registro-usuario.component';*/
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -44,7 +43,7 @@ import { ProcesaPagoComponent } from './components/procesa-pago/procesa-pago.com
     ReactiveFormsModule,
     RouterModule
   ],
-  providers: [RegistroService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

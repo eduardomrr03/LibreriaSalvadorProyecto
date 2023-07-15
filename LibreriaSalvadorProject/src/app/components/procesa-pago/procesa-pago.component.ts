@@ -20,16 +20,13 @@ export class ProcesaPagoComponent implements OnInit {
       key: 'pk_test_51NJsfSB4JgQm88iHITt4jOmpdh7ZjnxbGY3NxZahIHb4UrrZZbu8JWvBOuUZd1qakc9fUiFZt3MitOWpwTh1nu5h00xzQtwiuR',
       locale: 'auto',
       token: function (token: any) {
-        // You can access the token ID with `token.id`.
-        // Get the token ID to your server-side code for use.
         console.log(token)
-        alert('Token Created!!');
+        alert('Pago realizado correctamente');
       }
     });
 
     handler.open({
-      name: 'Demo Site',
-      description: '2 widgets',
+      name: 'Ingrese los siguientes datos',
       amount: amount * 100
     });
 
@@ -50,7 +47,7 @@ export class ProcesaPagoComponent implements OnInit {
             // You can access the token ID with `token.id`.
             // Get the token ID to your server-side code for use.
             console.log(token)
-            alert('Payment Success!!');
+            alert('Pago realizado');
           }
         });
       }
